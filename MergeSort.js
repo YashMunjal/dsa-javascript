@@ -22,7 +22,7 @@ const mergeSort=(n)=>{
              //shift takes the first element instead pop takes the last
          }
          else{
-             results.push(b.shift)
+             results.push(b.shift());
          }
      }
      while(left.length){
